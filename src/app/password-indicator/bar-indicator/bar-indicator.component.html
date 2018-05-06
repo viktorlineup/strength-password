@@ -1,0 +1,9 @@
+<div class="progress-container">
+  <i
+    *ngFor="let circle of circles, let ind = index"
+    #elem
+    [style.color]="renderIndicator(ind)"
+    class="fa fa-circle"
+      aria-hidden="true">
+  </i>
+</div>

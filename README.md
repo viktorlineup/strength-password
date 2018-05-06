@@ -1,2 +1,1 @@
-# strength-password
-test app
+# AppStudy

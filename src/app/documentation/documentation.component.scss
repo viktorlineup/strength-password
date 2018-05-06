@@ -1,0 +1,40 @@
+.documentation-container {
+  width: 70%;
+  padding: 30px;
+  height: 70vh;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: -3px 3px 10px -2px rgba(0,0,0,0.4);
+  & .back {
+    background-color: #f57153;
+    transition: all 0.1s ease-in-out 0.1s;
+    margin-bottom: 30px;
+    padding: 3px 15px;
+    border-radius: 15px;
+    align-self: flex-start;
+    &:hover {
+      padding-left: 23px;
+    }
+    & a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  & h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    margin-bottom: 100px;
+  }
+
+  & .doc-text {
+    margin-bottom: 30px;
+  }
+  & img {
+    align-self: flex-end;
+    width: 50%;
+  }
+}
